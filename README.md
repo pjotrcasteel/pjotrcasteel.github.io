@@ -18,7 +18,7 @@ PjotrCasteel
 └── GORM              standalone
 ```
 
-Forge.Parse belongs inside Forge and is not a separate ParseForge brand.
+Forge.Parse belongs inside the Forge product family.
 
 ## Creator-level contract
 
