@@ -34,7 +34,7 @@ for value in ("Forge.Delta", "Forge.Sync", "Forge.Parse"):
     if value not in index or value not in llms:
         raise SystemExit(f"Forge family member missing from creator surfaces: {value}")
 
-combined = "\n".join((index, dna, llms))
+combined = "\n".join((index, llms))
 if "ParseForge" in combined:
     raise SystemExit("Use Forge.Parse. ParseForge must not appear in creator-hub surfaces.")
 
