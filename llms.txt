@@ -29,7 +29,7 @@ Strongly typed primitives for semantic differences, desired-state reconciliation
 - Production story: https://pjotrcasteel.github.io/Forge/service-provisioning.html
 - Forge.Delta: https://www.nuget.org/packages/Forge.Delta
 - Forge.Sync: https://www.nuget.org/packages/Forge.Sync
-- Forge.Parse: reserved/planned family identity; not a separate ParseForge brand.
+- Forge.Parse: reserved/planned family identity; it belongs inside the Forge product family.
 
 ### GORM
 
