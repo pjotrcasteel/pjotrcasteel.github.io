@@ -16,12 +16,12 @@ const projects={
     actions:'<a class="button button-small" href="https://pjotrcasteel.github.io/Forge/">Visit Forge</a><a class="text-link" href="https://pjotrcasteel.github.io/Forge/service-provisioning.html">2-minute production story ↗</a>'
   },
   gorm:{
-    index:"03",status:"NEXT",symbol:"◇",category:"GRAPH PERSISTENCE",name:"GORM",
+    index:"03",status:"LIVE",symbol:"◇",category:"GRAPH PERSISTENCE",name:"GORM",
     promise:"Model how things connect.",
-    description:"Graph-oriented data access and persistence around nodes, relationships and explicit SQL graph behavior.",
-    boundary:"GORM should own graph mapping and persistence mechanics—not application domain policy.",
+    description:"Strongly typed graph persistence around nodes, relationships, traversal, temporal history and explicit SQL Server Graph behavior.",
+    boundary:"GORM owns graph mapping and persistence mechanics—not application domain policy.",
     className:"gorm-focus",
-    actions:'<span class="coming-link">The dedicated GORM public surface is the next product milestone.</span>'
+    actions:'<a class="button button-small" href="https://pjotrcasteel.github.io/GORM/">Visit GORM</a><a class="text-link" href="https://github.com/pjotrcasteel/GORM">Source ↗</a>'
   }
 };
 
