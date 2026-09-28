@@ -1,10 +1,8 @@
 # PjotrCasteel Open Source Design DNA
 
-> Status: creator-level standard v1.
+> Status: canonical creator-level standard v1.
 >
-> Canonical location after creator-hub publication: https://pjotrcasteel.github.io/CREATOR_DESIGN_DNA.md
->
-> This staged copy is byte-for-byte sourced from the Forge-era constitution apart from this location note. The Forge copy remains canonical until the creator hub is actually published.
+> Canonical location: https://pjotrcasteel.github.io/CREATOR_DESIGN_DNA.md
 
 This document defines the **shared product and documentation DNA** for open-source projects created by PjotrCasteel.
 
