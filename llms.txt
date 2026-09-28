@@ -33,9 +33,13 @@ Strongly typed primitives for semantic differences, desired-state reconciliation
 
 ### GORM
 
-Promise direction: Model how things connect.
+Promise: Model how things connect.
 
-Graph-oriented data access and graph persistence. Its dedicated public product surface is the next portfolio milestone.
+Strongly typed graph persistence for .NET, centered on nodes, relationships, traversal, temporal history and explicit SQL Server Graph behavior.
+
+- Website: https://pjotrcasteel.github.io/GORM/
+- Source: https://github.com/pjotrcasteel/GORM
+- Status: public product surface live; implementation source migration and NuGet publication intentionally deferred.
 
 ## Shared engineering DNA
 
