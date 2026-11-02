@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1119">
+  <meta name="description" content="AgentForge: transparent, bounded .NET 10 tools for AI agent planning and deterministic transitions. Explore TokenBudget and the Forge family.">
+  <meta property="og:title" content="AgentForge — Make every decision explainable">
+  <meta property="og:description" content="Plan, forecast, inspect, verify. A growing family of explicit .NET engineering tools.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pjotrcasteel.github.io/AgentForge/">
+  <link rel="canonical" href="https://pjotrcasteel.github.io/AgentForge/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='17' fill='%230a1119'/%3E%3Cpath d='M13 43 28 17h8l15 26M19 34h26' stroke='%23ffb86e' fill='none' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script defer src="./assets/site.js"></script>
+  <title>AgentForge — Make every decision explainable</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="AgentForge, top of page">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M8 34 20 12h8l12 22M13 27h22" stroke="currentColor" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/><path d="m25 9 12 20" stroke="#78d4cc" stroke-width="3"/></svg>
+        </span>
+        <span>Agent<span class="brand-accent">Forge</span></span>
+      </a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a href="#toolkit">Toolkit</a>
+        <a href="#preflight">Preflight</a>
+        <a href="#approach">Approach</a>
+        <a href="#roadmap">Roadmap</a>
+      </nav>
+      <a class="header-link" href="https://github.com/pjotrcasteel/Forge" target="_blank" rel="noopener noreferrer">
+        Forge on GitHub <span aria-hidden="true">↗</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#toolkit">Toolkit</a><a href="#preflight">Preflight</a>
+      <a href="#approach">Approach</a><a href="#roadmap">Roadmap</a>
+      <a href="https://github.com/pjotrcasteel/Forge">Forge on GitHub ↗</a>
+    </nav>
+    <main id="main">
+      <section class="hero section-grid" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="live-dot"></span> THE AGENTFORGE INITIATIVE <span class="eyebrow-rule"></span> .NET 10</div>
+          <h1 id="hero-title">Make every<br><em>decision</em><br>explainable<span class="period">.</span></h1>
+          <p class="hero-lede">Build systems that know what they plan to do, what they might consume, and when a human should decide.</p>
+          <p class="hero-support">AgentForge brings together transparent AI-agent preflight and strongly typed planning primitives. Clear estimates. Explicit boundaries. No invisible execution.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#preflight">Explore token preflight <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#toolkit">Explore the toolkit <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-meta" aria-label="Current technical foundation">
+            <div><span class="meta-value">.NET 10</span><span class="meta-label">FOUNDATION</span></div>
+            <div><span class="meta-value">69 / 69</span><span class="meta-label">TOKENBUDGET TESTS</span></div>
+            <div><span class="meta-value">READ-ONLY</span><span class="meta-label">PREFLIGHT BY DEFAULT</span></div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div>
+          <div class="crosshair crosshair-one"></div><div class="crosshair crosshair-two"></div>
+          <div class="orbital-label label-north">PLAN / 01</div>
+          <div class="orbital-label label-east">BOUND / 02</div>
+          <div class="orbital-label label-south">VERIFY / 03</div>
+          <div class="central-glyph">
+            <svg viewBox="0 0 320 320" fill="none">
+              <path d="M70 231 147 91h27l77 140" stroke="#ffbc79" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M106 187h108" stroke="#ffbc79" stroke-width="14" stroke-linecap="round"/>
+              <path d="m159 69 95 168" stroke="#69d0c8" stroke-width="5" stroke-dasharray="8 13"/>
+              <circle cx="160" cy="160" r="125" stroke="#384550" stroke-width="2" stroke-dasharray="4 9"/>
+              <circle cx="160" cy="160" r="147" stroke="#44535c" stroke-opacity=".45"/>
+              <circle cx="160" cy="12" r="5" fill="#ffbc79"/>
+              <circle cx="294" cy="223" r="5" fill="#69d0c8"/>
+            </svg>
+          </div>
+          <div class="visual-note note-one"><span class="note-point"></span> deterministic core</div>
+          <div class="visual-note note-two"><span class="note-point teal"></span> human authority retained</div>
+          <div class="visual-coordinates">AF // SYSTEMS THAT EXPLAIN THEMSELVES<br>50° / 2026 / BUILD 0.5</div>
+        </div>
+      </section>
+
+      <section class="principles-strip" aria-label="Core principles">
+        <span>01 &nbsp; PLAN BEFORE EXECUTION</span>
+        <span class="strip-divider">✳</span>
+        <span>02 &nbsp; EVIDENCE OVER PROMISES</span>
+        <span class="strip-divider">✳</span>
+        <span>03 &nbsp; HUMAN APPROVAL STAYS HUMAN</span>
+      </section>
+
+      <section class="content-section" id="toolkit">
+        <div class="section-heading">
+          <p class="section-index">01 / TOOLKIT</p>
+          <div><h2>Tools with <span class="muted">clear jobs.</span></h2><p>Each component does one thing and exposes where its responsibility ends.</p></div>
+        </div>
+        <div class="tool-grid">
+          <article class="tool-card featured">
+            <div class="tool-top"><span class="tool-number">AF / 001</span><span class="pill pill-active">DEVELOPMENT v0.5</span></div>
+            <div class="tool-symbol token-symbol" aria-hidden="true"><span>t</span><span class="symbol-spark">✳</span></div>
+            <h3>TokenBudget</h3>
+            <p>Estimate cumulative tokens and peak context before an AI coding plan runs. Inspect budget risks, approval gates, and later compare the forecast with measured usage.</p>
+            <div class="tool-tags"><span>MONTE CARLO</span><span>CODEX / API / MCP</span><span>SQLITE</span></div>
+            <a class="text-link" href="#preflight">See a real forecast <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="tool-card">
+            <div class="tool-top"><span class="tool-number">FORGE / 001</span><span class="pill">FORGE FAMILY</span></div>
+            <div class="tool-symbol delta-symbol" aria-hidden="true">Δ</div>
+            <h3>Forge.Delta</h3>
+            <p>Understand what changed inside a typed object. Describe semantic differences without tying detection to persistence or side effects.</p>
+            <div class="tool-tags"><span>OBJECT DIFF</span><span>TYPED RESULTS</span></div>
+            <a class="text-link" href="https://github.com/pjotrcasteel/Forge" target="_blank" rel="noopener noreferrer">View Forge source <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="tool-card">
+            <div class="tool-top"><span class="tool-number">FORGE / 002</span><span class="pill">FORGE FAMILY</span></div>
+            <div class="tool-symbol sync-symbol" aria-hidden="true"><svg viewBox="0 0 78 78" fill="none"><path d="M16 29h44M52 20l10 9-10 9M62 49H18m8-9-10 9 10 9" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <h3>Forge.Sync</h3>
+            <p>Reconcile keyed current and desired collections. Produce an explicit transition plan for application-owned execution.</p>
+            <div class="tool-tags"><span>RECONCILIATION</span><span>PLANNING</span></div>
+            <a class="text-link" href="https://github.com/pjotrcasteel/Forge" target="_blank" rel="noopener noreferrer">View Forge source <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="tool-card future-card">
+            <div class="tool-top"><span class="tool-number">FORGE / NEXT</span><span class="pill pill-planned">PLANNED</span></div>
+            <div class="tool-symbol parse-symbol" aria-hidden="true">{ }</div>
+            <h3>Forge.Parse</h3>
+            <p>Typed interpretation of structured input. A future Forge-family primitive, with an optional Reqnroll adapter.</p>
+            <div class="tool-tags"><span>PARSING</span><span>REQNROLL ADAPTER</span></div>
+            <span class="text-link disabled-link">On the roadmap</span>
+          </article>
+        </div>
+        <div class="initiative-note"><span class="mini-mark">+</span><p><strong>Exploring Forge.Intent.</strong> A future deterministic contract for agent action plans, approval binding, receipts and planned-versus-actual drift. Proposed, not shipped.</p></div>
+      </section>
+
+      <section class="content-section preflight-section" id="preflight">
+        <div class="section-heading">
+          <p class="section-index">02 / PREFLIGHT</p>
+          <div><h2>See the risk <span class="muted">before the run.</span></h2><p>An actual TokenBudget v0.5 offline sample, with an adjustable budget threshold.</p></div>
+        </div>
+        <div class="demo-layout">
+          <div class="demo-panel">
+            <div class="panel-heading"><span class="terminal-dots"><i></i><i></i><i></i></span><span>sample-forecast.json</span><span class="panel-right">CODEX CLI / OFFLINE</span></div>
+            <div class="demo-main">
+              <div class="demo-title-row"><span class="mono-overline">CUMULATIVE TOKENS / SCENARIO DISTRIBUTION</span><span class="pill pill-sample">FIXED SAMPLE</span></div>
+              <div class="forecast-chart" aria-label="Forecast quantiles are P10 125808 tokens, P50 206461 tokens, P90 306628 tokens">
+                <div class="bar-row"><span>P10</span><div class="bar-track"><div class="bar-fill p10" style="width:28%"></div></div><strong>125,808</strong></div>
+                <div class="bar-row"><span>P50</span><div class="bar-track"><div class="bar-fill p50" style="width:46%"></div></div><strong>206,461</strong></div>
+                <div class="bar-row"><span>P90</span><div class="bar-track"><div class="bar-fill p90" style="width:68%"></div></div><strong>306,628</strong></div>
+              </div>
+              <div class="slider-top"><label for="budget-slider">YOUR CUMULATIVE BUDGET</label><output id="budget-value" for="budget-slider">250,000 tokens</output></div>
+              <input id="budget-slider" type="range" min="100000" max="450000" step="10000" value="250000" aria-describedby="slider-help">
+              <div class="slider-labels"><span>100K</span><span>450K</span></div>
+              <p id="slider-help" class="demo-footnote">Move the budget to see how a limit compares with the fixed, seeded P90 forecast.</p>
+            </div>
+            <div class="verdict-row" aria-live="polite">
+              <div><span class="mono-overline">BUDGET OUTCOME</span><strong id="budget-verdict" class="verdict reject">REJECT</strong></div>
+              <p id="verdict-reason">The modeled P90 of 306,628 tokens exceeds your 250,000-token cap.</p>
+            </div>
+          </div>
+          <aside class="demo-explainer">
+            <span class="tiny-label">THE IMPORTANT DISTINCTION</span>
+            <h3>A forecast is not a measurement.</h3>
+            <p>TokenBudget counts the submitted input using a heuristic by default, then models possible model calls, context growth, output and retries.</p>
+            <ul>
+              <li><span class="check-icon">✓</span> 10,000 deterministic seeded samples</li>
+              <li><span class="check-icon">✓</span> Cumulative and peak-context limits</li>
+              <li><span class="check-icon">✓</span> Human approval gates stay intact</li>
+              <li><span class="caution-icon">!</span> No real-run P90 calibration yet</li>
+            </ul>
+            <div class="explainer-bottom"><strong>WHAT THIS DEMO DOES</strong><p>It compares your chosen limit with one published development sample. It does not call a model or execute the .NET engine in your browser.</p></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="content-section" id="approach">
+        <div class="section-heading">
+          <p class="section-index">03 / APPROACH</p>
+          <div><h2>Explain the plan. <span class="muted">Keep the control.</span></h2><p>The core does analysis; your application decides whether, when and how to execute.</p></div>
+        </div>
+        <div class="process-grid">
+          <div class="process-card"><span>01</span><div class="process-line"></div><h3>Describe</h3><p>Supply a Markdown work plan with milestones, dependencies and approval points.</p></div>
+          <div class="process-card"><span>02</span><div class="process-line"></div><h3>Forecast</h3><p>Inspect read-only repository metadata and model cumulative and peak-context usage.</p></div>
+          <div class="process-card"><span>03</span><div class="process-line"></div><h3>Decide</h3><p>Apply explicit caps and risk tolerance. Keep the human approval boundary visible.</p></div>
+          <div class="process-card"><span>04</span><div class="process-line"></div><h3>Compare</h3><p>Import recorded Codex usage later to measure error and guide future calibration.</p></div>
+        </div>
+        <div class="boundary-panel">
+          <div class="boundary-symbol" aria-hidden="true">≠</div>
+          <div><span class="tiny-label">A HARD BOUNDARY</span><h3>Analyzing a plan does not authorize running it.</h3><p>By default, AgentForge’s TokenBudget preflight performs no agent execution and no provider upload. Optional LLM review requires explicit consent. Forge planning primitives also leave persistence and side effects to the calling application.</p></div>
+        </div>
+      </section>
+
+      <section class="evidence-section">
+        <div class="evidence-inner">
+          <div><span class="section-index">04 / VERIFIED STATUS</span><h2>Working code.<br><span class="muted-light">Honest limits.</span></h2></div>
+          <div class="evidence-grid">
+            <div><strong>14</strong><span>.NET 10 PROJECTS BUILT</span></div>
+            <div><strong>69</strong><span>TESTS PASSED</span></div>
+            <div><strong>0</strong><span>BUILD WARNINGS</span></div>
+            <div><strong>6</strong><span>LOCAL HTTP CHECKS PASSED</span></div>
+          </div>
+          <p class="evidence-disclaimer">TokenBudget v0.5 verification, November 2026. These are build and integration results—not validated token prediction accuracy or evidence of a live ChatGPT Work integration.</p>
+        </div>
+      </section>
+
+      <section class="content-section roadmap-section" id="roadmap">
+        <div class="section-heading">
+          <p class="section-index">05 / ROADMAP</p>
+          <div><h2>Where we <span class="muted">go next.</span></h2><p>Prioritize trust and observable behavior before broader agent autonomy.</p></div>
+        </div>
+        <div class="roadmap-list">
+          <div class="roadmap-item"><span class="roadmap-status current"></span><div><span class="tiny-label">CURRENT DEVELOPMENT</span><h3>Codex app-server usage ingestion</h3></div><p>Reconcile cumulative token snapshots without double-counting repeated updates.</p><span class="roadmap-arrow">↗</span></div>
+          <div class="roadmap-item"><span class="roadmap-status"></span><div><span class="tiny-label">UP NEXT</span><h3>Evidence-backed calibration</h3></div><p>Use matched completed runs to test P50 bias and actual P90 coverage before scaling forecasts.</p><span class="roadmap-arrow">↗</span></div>
+          <div class="roadmap-item"><span class="roadmap-status"></span><div><span class="tiny-label">PLANNED</span><h3>Agent safety contracts</h3></div><p>Explore Forge.Intent manifests, approvals and receipts; evaluate remote ChatGPT Work integration.</p><span class="roadmap-arrow">↗</span></div>
+        </div>
+      </section>
+
+      <section class="closing-section">
+        <div class="closing-graphic" aria-hidden="true">A<span>✳</span>F</div>
+        <p class="section-index">BUILD WITH A CLEAR BOUNDARY</p>
+        <h2>Good agents are<br><em>accountable agents.</em></h2>
+        <p>Understand the plan, know the uncertainty and keep the final decision where it belongs.</p>
+        <div class="hero-actions closing-actions">
+          <a class="button button-primary" href="#preflight">Inspect the example <span aria-hidden="true">↗</span></a>
+          <a class="button button-outline" href="https://pjotrcasteel.github.io/Forge/" target="_blank" rel="noopener noreferrer">Explore Forge <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-brand"><span class="footer-mark">PC</span><div><strong>AgentForge</strong><small>Engineering tools that explain themselves.</small></div></div>
+      <div class="footer-links"><a href="https://github.com/pjotrcasteel/Forge">Forge GitHub</a><a href="https://pjotrcasteel.github.io/">Creator hub</a><a href="#top">Back to top ↑</a></div>
+      <p>© <span id="copyright-year">2026</span> Pjotr Casteel · Development initiative · Built for transparent .NET systems.</p>
+    </footer>
+  </div>
+</body>
+</html>
